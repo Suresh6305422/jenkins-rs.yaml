@@ -16,6 +16,7 @@ spec:
     metadata:
       labels:
         name: jenkins 
+        release: v1.1
     spec:
       - containers:
         name: jenkis
