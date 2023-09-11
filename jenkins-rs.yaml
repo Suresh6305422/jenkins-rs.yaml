@@ -11,12 +11,10 @@ spec:
   selctors:
     matchLabels:
       app: jenkins
-      release: v1
   template:
     metadata:
       labels:
-        name: jenkins 
-        release: v1
+        name: jenkins
     spec:
        containers:
          - name: jenkis
