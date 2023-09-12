@@ -12,7 +12,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: jenkins
+      name: jenkins
   template:
     metadata:
       name: jenkins
