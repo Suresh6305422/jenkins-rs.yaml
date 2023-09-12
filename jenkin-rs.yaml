@@ -12,8 +12,8 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: jenkins
-      release: v1.1
+      app: "jenkins/jenkins"
+      release: "v1.1"
   template:
     metadata:
       name: jenkins
